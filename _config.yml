@@ -1,0 +1,11 @@
+timezone: America/New_York
+permalink: /:categories/:title/
+future: false
+defaults:
+  # due
+  - scope:
+      path: "_posts/due"
+      type: posts
+    values:
+      permalink: due/:year/:month/:day/:title
+      category: due

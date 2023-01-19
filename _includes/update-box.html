@@ -1,0 +1,14 @@
+<h2 class="section-title">Look here!</h2>
+<p>Look here for any updates and announcements.</p>
+{% assign counter = 0 %}
+{% for post in site.categories.updates %}
+  {% if counter < 2 %}
+    <hr>
+    <article class="home-due">
+      <h5>{{ post.date | date: "%B %d" }}</h5>
+      <h3>{{ post.title }}</h3>
+      {{ post.content }}
+    </article>
+  {% endif %}
+  {% assign counter = counter | plus: 1 %}
+{% endfor %}
