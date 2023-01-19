@@ -314,7 +314,19 @@ body { background-color: white; }
 
 .temp-header { background-color: #1a1a1a; padding: 50px 12.5vw; }
 
-.temp-header h1 { color: #c200fb; }
+.temp-header h1 { color: white; text-align: center; }
+
+.temp-thanks { background-color: #c200fb; width: 100vw; height: 100vh; padding: 25vh 50px; }
+
+.temp-thanks h1, .temp-thanks h2 { color: #1a1a1a; text-align: center; }
+
+.temp-thanks h2 { font-size: 1.5em; }
+
+@media only screen and (min-width: 768px) { .temp-form { padding: 50px 20vw; } .temp-thanks h2 { font-size: 3em; } }
+
+@media only screen and (min-width: 1024px) { .temp-form { padding: 50px 25vw; } }
+
+@media only screen and (min-width: 1400px) { .temp-form { padding: 50px 30vw; } }
 
 /* ========================================================================== Print styles. Inlined to avoid the additional HTTP request: https://www.phpied.com/delay-loading-your-print-css/ ========================================================================== */
 @media print { *, *:before, *:after { background: transparent !important; -webkit-box-shadow: none !important; box-shadow: none !important; text-shadow: none !important; } a, a:visited { text-decoration: none; } article a[href]:after { content: " (" attr(href) ")"; } abbr[title]:after { content: " (" attr(title) ")"; } /* Don't show links that are fragment identifiers, or use the `javascript:` pseudo protocol */ a[href^="#"]:after, a[href^="javascript:"]:after { content: ""; } pre { white-space: pre-wrap !important; } pre, blockquote { border: 1px solid #999; page-break-inside: avoid; } /* Printing Tables: http://css-discuss.incutio.com/wiki/Printing_Tables */ thead { display: table-header-group; } tr, img { page-break-inside: avoid; } p, h2, h3 { orphans: 3; widows: 3; } h2, h3 { page-break-after: avoid; } article.tutorial, article.student { border-top: 20px solid #1a1a1a; border-bottom: 20px solid #1a1a1a; margin: 50px 0; padding: 50px 50% 50px 0; } footer { display: block; width: 50%; } h1 { font-size: 100px; color: rgba(0, 0, 0, 0) !important; } p:last-of-type { margin-bottom: 0; } .no-print { display: none; } .only-print { display: block; } .print-underline { border-bottom: 2px solid #1a1a1a; } }
