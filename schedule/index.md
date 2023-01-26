@@ -5,29 +5,27 @@ title: Schedule
 
 This schedule is a rough outline for class each week. It is very subject to change but will reflect the most current schedule.
 
-### August 24 &mdash; Week 1
+### January 26 &mdash; Week 1
 #### Outline for the Day
 * All section meeting
-* Review syllabus (together)
-* Set expectations (together)
-* Cover class format (together)
-* Introduce committee options (together)
-* E1: I am for a design that is... (together)
-<!-- * E2: [Making a Plan]({{ site.baseurl }}/projects#e2) -->
-* Senior Project: Introduction and proposal guidelines (together)
-<!-- * E2: [Making a Plan]({{ site.baseurl }}/projects#e2) -->
+* Review syllabus
+* Set expectations
+* Cover class format
+* Introduce committee options
+* E1: About You
+* Senior Project: Introduction and proposal guidelines
 
 #### Due Next Class
-* E1: I am for a design that is...
+* E1: What Are You Interested In?
 * SP: 3 Proposals
 
 ---
 
-### August 31 &mdash; Week 2
+### February 2 &mdash; Week 2
 #### Outline for the Day
 * Share E1
 * SP: Proposal critique
-* SP: Presentation guidelines (together)
+* SP: Presentation guidelines
 * Committee selection
 
 #### Due Next Class
@@ -36,10 +34,10 @@ This schedule is a rough outline for class each week. It is very subject to chan
 
 ---
 
-### September 7 &mdash; Week 3
+### February 9 &mdash; Week 3
 #### Outline for the Day
-* SP: Presentations (switch)
-* Creating a project timeline (together)
+* SP: Presentations
+* Creating a project timeline
 
 #### Due Next Class
 * SP: Project timeline
@@ -47,7 +45,7 @@ This schedule is a rough outline for class each week. It is very subject to chan
 
 ---
 
-### September 14 &mdash; Week 4
+### February 16 &mdash; Week 4
 #### Outline for the Day
 * SP: Timeline &amp; initial research small group meetings
 * E2: In class reference/research/iteration activity
@@ -57,7 +55,7 @@ This schedule is a rough outline for class each week. It is very subject to chan
 
 ---
 
-### September 21 &mdash; Week 5
+### February 23 &mdash; Week 5
 #### Outline for the Day
 * SP: Individual meetings
 
@@ -66,7 +64,7 @@ This schedule is a rough outline for class each week. It is very subject to chan
 
 ---
 
-### September 28 &mdash; Week 6
+### March 2 &mdash; Week 6
 #### Outline for the Day
 * SP: Small group check ins on progress (together)
 * Committee check ins
@@ -76,7 +74,7 @@ This schedule is a rough outline for class each week. It is very subject to chan
 
 ---
 
-### October 5 &mdash; Week 7
+### March 9 &mdash; Week 7
 #### Outline for the Day
 * SP: Mid point critiques for first half of students
 
@@ -85,7 +83,13 @@ This schedule is a rough outline for class each week. It is very subject to chan
 
 ---
 
-### October 12 &mdash; Week 8
+### March 16 &mdash; Week 8
+#### Outline for the Day
+* Spring Break, no class
+
+---
+
+### March 23 &mdash; Week 9
 #### Outline for the Day
 * SP: Mid point critiques for second half of students
 
@@ -94,7 +98,7 @@ This schedule is a rough outline for class each week. It is very subject to chan
 
 ---
 
-### October 19 &mdash; Week 9
+### March 30 &mdash; Week 10
 #### Outline for the Day
 * SP: Small group check ins on progress (together)
 * Committee check ins
@@ -104,7 +108,7 @@ This schedule is a rough outline for class each week. It is very subject to chan
 
 ---
 
-### October 26 &mdash; Week 10
+### April 6 &mdash; Week 11
 #### Outline for the Day
 * SP: Individual critiques
 
@@ -113,24 +117,30 @@ This schedule is a rough outline for class each week. It is very subject to chan
 
 ---
 
-### November 2 &mdash; Week 11
+### April 13 &mdash; Week 12
 #### Outline for the Day
-* SP: Opposite instructor check in
-* E3: In class activity
+* SP: Opposite instructor critiques
 
 #### Due Next Class
 * SP: What your timeline says
 
 ---
 
-### November 9 &mdash; Week 12
+### April 20 &mdash; Week 13
 #### Outline for the Day
-* SP: Due
-* SP: Show and Tell
+* SP: Individual critiques
+
+#### Due Next Class
+* SP: All work due
 
 ---
 
-### November 16 &mdash; Week 13
+### April 27 &mdash; Week 14
+* SP: Walk around, show and tell
+
+---
+
+### May 4 &mdash; Week 15
 #### Outline for the Day
 * Exhibition work
 * Digital and physical project documentation
@@ -138,13 +148,36 @@ This schedule is a rough outline for class each week. It is very subject to chan
 
 ---
 
-### November 23 &mdash; Week 14
-* No class, Fall Break.
+### May 5
+#### Outline for the Day
+* Gallery prep 
 
 ---
 
-### November 30 &mdash; Week 15
+### May 6 & 7
 #### Outline for the Day
-* Gallery prep workshop
-* Committee check ins
+* Show install starting at 10am
+
+---
+
+### May 8–12
+#### Outline for the Day
+* Show open
+
+---
+
+### May 11 &mdash; Week 16
+#### Outline for the Day
 * Final critiques
+
+---
+
+### May 13
+#### Outline for the Day
+* Closing reception, 6–8pm
+
+---
+
+### May 15 &mdash; Week 15
+#### Outline for the Day
+* Show deinstall starting at 10am

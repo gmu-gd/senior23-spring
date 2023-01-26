@@ -98,11 +98,11 @@ $font-stack-body: sofia-pro, sans-serif;
 $font-stack-bighead: rig-solid-bold-halftone, sans-serif;
 $font-stack-student: rig-solid-bold-fill, sans-serif;
 $font-stack-headings: sofia-pro-soft, sans-serif;
-$primary-color: #c200fb;
-$secondary-color: #39A0ED;
-$dark-color: #1a1a1a;
+$primary-color: #44FFD1;
+$secondary-color: #623CEA;
+$dark-color: #272727;
 $light-color: white;
-$error-color: #EB5160;
+$error-color: #FE5F55;
 * {
   box-sizing: border-box;
 }
@@ -1035,6 +1035,18 @@ p#warning {
     h1 {
       font-size: 10vw;
     }
+}
+@media only screen and (min-width: 2100px) {
+  .pattern-container div {
+    font-size: 100px;
+    line-height: 1em;
+  }
+  .pattern-container div.row-even {
+    margin-left: -45px;
+  }
+  .pattern-container {
+    margin-top: -20px;
+  }
 }
 @media print,
        (-webkit-min-device-pixel-ratio: 1.25),

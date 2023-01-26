@@ -25,13 +25,13 @@ textarea { resize: vertical; }
 /* ========================================================================== Author's custom styles ========================================================================== */
 * { box-sizing: border-box; }
 
-::selection { background: #c200fb; }
+::selection { background: #44FFD1; }
 
-::-moz-selection { background: #c200fb; }
+::-moz-selection { background: #44FFD1; }
 
 html { font-size: 16px; }
 
-body { margin: 0; font-family: sofia-pro, sans-serif; font-size: 16px; font-weight: 400; line-height: 1.5; background-color: white; color: #1a1a1a; width: 100vw; overflow-x: hidden; }
+body { margin: 0; font-family: sofia-pro, sans-serif; font-size: 16px; font-weight: 400; line-height: 1.5; background-color: white; color: #272727; width: 100vw; overflow-x: hidden; }
 
 .interior { background-color: white; }
 
@@ -47,23 +47,23 @@ li { padding: 0 0 0 0; margin: 15px 0 0; text-transform: uppercase; letter-spaci
 
 .tutorial-page li, .single li, .project li { margin: 10px 0 0; letter-spacing: 0; float: none; text-transform: initial; font-weight: normal; font-size: 1.2rem; }
 
-li a, .interior a { border-bottom: 3px solid #c200fb; }
+li a, .interior a { border-bottom: 3px solid #44FFD1; }
 
-li a:hover { border-bottom: 3px solid #c200fb; }
+li a:hover { border-bottom: 3px solid #44FFD1; }
 
-li a.active { color: #1a1a1a; border-bottom: 3px solid #39A0ED; }
+li a.active { color: #272727; border-bottom: 3px solid #623CEA; }
 
-li a.active:hover, .interior li a:hover, .interior a:hover { color: #1a1a1a; border-bottom: 3px solid #39A0ED; }
+li a.active:hover, .interior li a:hover, .interior a:hover { color: #272727; border-bottom: 3px solid #623CEA; }
 
-.interior h1 a, .interior h1 a:hover { border-bottom: none; color: #c200fb; }
+.interior h1 a, .interior h1 a:hover { border-bottom: none; color: #44FFD1; }
 
 a.main-link, a.main-link:hover, .interior li a.main-link, .interior li a.main-link:hover { border-bottom: none; }
 
-.due-box a, .due-box a:visited { color: white; border-bottom: 3px solid #c200fb; }
+.due-box a, .due-box a:visited { color: white; border-bottom: 3px solid #44FFD1; }
 
-.due-box a:hover, .due-box a:active { color: white; border-bottom: 3px solid #39A0ED; }
+.due-box a:hover, .due-box a:active { color: white; border-bottom: 3px solid #623CEA; }
 
-header { width: 100%; background-color: #c200fb; padding: 5px 0 10px; }
+header { width: 100%; background-color: #44FFD1; padding: 5px 0 10px; }
 
 nav { width: 100%; margin: 0; }
 
@@ -85,9 +85,9 @@ main, #head-contain { width: 90vw; margin: 0 auto; }
 
 .page-info { grid-area: pi; padding: 5vw; }
 
-.arrows { grid-area: ar; background-color: #c200fb; overflow: hidden; }
+.arrows { grid-area: ar; background-color: #44FFD1; overflow: hidden; }
 
-.due-box { grid-area: wd; grid-template-rows: max-content; padding: 5vw; background-color: #1a1a1a; color: white; }
+.due-box { grid-area: wd; grid-template-rows: max-content; padding: 5vw; background-color: #272727; color: white; }
 
 .pattern-container { width: 300%; margin: -5px -25px; display: flow-root; }
 
@@ -103,15 +103,15 @@ section { display: grid; grid-template-columns: 100%; grid-gap: 5vw; margin: 25p
 
 .single, .tutorial-page { width: 100%; margin: 50px 0; }
 
-.student, .tutorial { border: 3px solid #1a1a1a; cursor: pointer; }
+.student, .tutorial { border: 3px solid #272727; cursor: pointer; }
 
 .student { margin: 0; padding: 0; font-family: rig-solid-bold-fill, sans-serif; transition: .5s ease; }
 
 .student p { text-align: center; font-size: 2.7rem; margin: 0; padding: 25px 0; text-transform: uppercase; letter-spacing: 1px; }
 
-.student:hover, .tutorial:hover { background-color: #c200fb; }
+.student:hover, .tutorial:hover { background-color: #44FFD1; }
 
-.student.no-link, .student.no-link:hover { background-color: #EB5160; cursor: default; }
+.student.no-link, .student.no-link:hover { background-color: #FE5F55; cursor: default; }
 
 .student:nth-child(3n+3) { margin-right: 0; }
 
@@ -133,9 +133,9 @@ footer { display: none; }
 
 a { transition: border-color .5s ease; }
 
-a, a:hover, a:active, a:visited { color: #1a1a1a; text-decoration: none; }
+a, a:hover, a:active, a:visited { color: #272727; text-decoration: none; }
 
-h1 a, h1 a:hover, h1 a:active, h1 a:visited { color: #1a1a1a; }
+h1 a, h1 a:hover, h1 a:active, h1 a:visited { color: #272727; }
 
 p { font-size: 1.2rem; line-height: 1.6em; margin-top: .25em; margin-bottom: 1.25em; }
 
@@ -143,9 +143,9 @@ p { font-size: 1.2rem; line-height: 1.6em; margin-top: .25em; margin-bottom: 1.2
 
 .section-title { grid-column: span 1; text-transform: uppercase; letter-spacing: .1rem; color: white; margin: 0; }
 
-.interior .section-title { color: #1a1a1a; }
+.interior .section-title { color: #272727; }
 
-.section-title span { background-color: #1a1a1a; padding: 4px 6px; }
+.section-title span { background-color: #272727; padding: 4px 6px; }
 
 #lightbox { position: fixed; top: 2vh; left: 5vw; width: 90vw; height: 96vh; background: url() no-repeat center center; background-size: contain; z-index: 99; }
 
@@ -155,11 +155,11 @@ aside { display: none; }
 
 .scroll-lock { overflow: hidden !important; }
 
-h1, h2, h3, h4, h5 { margin: 0; font-weight: 700; line-height: 1.15; font-family: sofia-pro-soft, sans-serif; color: #1a1a1a; }
+h1, h2, h3, h4, h5 { margin: 0; font-weight: 700; line-height: 1.15; font-family: sofia-pro-soft, sans-serif; color: #272727; }
 
-h1 { font-family: rig-solid-bold-halftone, sans-serif; margin-top: 0; font-size: 15vw; line-height: .9em; padding: 10px 0 0 0; margin-left: -6px; text-transform: uppercase; letter-spacing: .1rem; font-weight: 700; color: #c200fb; }
+h1 { font-family: rig-solid-bold-halftone, sans-serif; margin-top: 0; font-size: 15vw; line-height: .9em; padding: 10px 0 0 0; margin-left: -6px; text-transform: uppercase; letter-spacing: .1rem; font-weight: 700; color: #44FFD1; }
 
-.interior h1 { color: #c200fb; }
+.interior h1 { color: #44FFD1; }
 
 .interior h2.page-title { font-family: rig-solid-bold-halftone, sans-serif; font-size: 4em; }
 
@@ -167,9 +167,9 @@ h2 { font-size: 2.441em; text-transform: uppercase; letter-spacing: .1px; font-w
 
 h3 { font-size: 1.653em; margin-top: 45px; font-weight: bold; text-transform: uppercase; }
 
-h2.section-title { color: #c200fb; font-size: 2.8em; }
+h2.section-title { color: #44FFD1; font-size: 2.8em; }
 
-.home-due h3 { color: #c200fb; margin-top: 0; letter-spacing: 1px; }
+.home-due h3 { color: #44FFD1; margin-top: 0; letter-spacing: 1px; }
 
 .home-due h4 { color: white; margin-top: 5px; letter-spacing: 1px; }
 
@@ -181,33 +181,33 @@ h4 { font-size: 1.2em; margin-top: 25px; text-transform: uppercase; letter-spaci
 
 h5 { font-size: 1.25em; text-transform: uppercase; letter-spacing: .1px; }
 
-.command { background-color: #c200fb; color: white; white-space: nowrap; padding: 3px 3px; }
+.command { background-color: #44FFD1; color: white; white-space: nowrap; padding: 3px 3px; }
 
-.due { color: #39A0ED; font-size: 1rem; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; }
+.due { color: #623CEA; font-size: 1rem; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; }
 
 ul.date-list { padding: 0; margin-left: 0; }
 
 .date-list li { list-style-type: none; }
 
-.date { color: #39A0ED; }
+.date { color: #623CEA; }
 
-.spoiler { color: white; white-space: pre-wrap; font-family: monospace; border: 3px solid #1a1a1a; margin: 3px 3px; }
+.spoiler { color: white; white-space: pre-wrap; font-family: monospace; border: 3px solid #272727; margin: 3px 3px; }
 
-.spoiler::selection { background-color: #1a1a1a; }
+.spoiler::selection { background-color: #272727; }
 
-code { color: white; background-color: #1a1a1a; white-space: pre-wrap; padding: 3px 3px; }
+code { color: white; background-color: #272727; white-space: pre-wrap; padding: 3px 3px; }
 
 small, .text-small { font-size: 0.8em; font-weight: 700; }
 
 .page-info small { text-transform: uppercase; letter-spacing: 1px; }
 
-h1 .info { font-size: 16px; color: #1a1a1a; letter-spacing: 1px; }
+h1 .info { font-size: 16px; color: #272727; letter-spacing: 1px; }
 
-.link-small { font-size: 0.8em; font-weight: 700; text-transform: uppercase; letter-spacing: .1px; border-bottom: 3px solid #1a1a1a; }
+.link-small { font-size: 0.8em; font-weight: 700; text-transform: uppercase; letter-spacing: .1px; border-bottom: 3px solid #272727; }
 
-hr { border-top: 3px solid #c200fb; margin: 25px 0 50px; }
+hr { border-top: 3px solid #44FFD1; margin: 25px 0 50px; }
 
-.due-box hr { border-top: 3px dotted #c200fb; margin: 25px 0; }
+.due-box hr { border-top: 3px dotted #44FFD1; margin: 25px 0; }
 
 form { width: 100%; }
 
@@ -215,38 +215,38 @@ label { font-size: 1.2em; }
 
 label, input, textarea { width: 100%; }
 
-input, textarea { margin: 5px 0 25px; padding: 3px; font-family: sofia-pro, sans-serif; border: 2px solid #1a1a1a; }
+input, textarea { margin: 5px 0 25px; padding: 3px; font-family: sofia-pro, sans-serif; border: 2px solid #272727; }
 
 input#portrait-but { border: none; margin: 10px 0 0 0; padding: 0; }
 
 input.slider { border: none; }
 
-input:focus, textarea:focus, form.submitted input:invalid:focus, form.submitted textarea:invalid:focus { outline: none; border: 2px solid #c200fb; box-shadow: 0 0 5px #c200fb; }
+input:focus, textarea:focus, form.submitted input:invalid:focus, form.submitted textarea:invalid:focus { outline: none; border: 2px solid #44FFD1; box-shadow: 0 0 5px #44FFD1; }
 
-.slidecontainer input:focus { outline: none; border: 2px solid #39A0ED; box-shadow: 0 0 5px #39A0ED; }
+.slidecontainer input:focus { outline: none; border: 2px solid #623CEA; box-shadow: 0 0 5px #623CEA; }
 
 textarea { height: 100px; }
 
 form button { margin: 70px 0 0; font-size: 2em; padding: 3px 15px 5px 14px; transition: .5s; }
 
-form button#sub-but, form button#sub-but:visited, form button#sub-but:visited, form button#sub-but:hover { color: #1a1a1a; }
+form button#sub-but, form button#sub-but:visited, form button#sub-but:visited, form button#sub-but:hover { color: #272727; }
 
-form button:hover { background-color: #c200fb; }
+form button:hover { background-color: #44FFD1; }
 
 input::file-selector-button { padding: 3px 7px 5px 6px; }
 
-form button, input::file-selector-button { border: 2px solid #1a1a1a; background: none; font-family: sofia-pro-soft, sans-serif; cursor: pointer; text-transform: uppercase; font-weight: 700; letter-spacing: .5px; }
+form button, input::file-selector-button { border: 2px solid #272727; background: none; font-family: sofia-pro-soft, sans-serif; cursor: pointer; text-transform: uppercase; font-weight: 700; letter-spacing: .5px; }
 
 .slidecontainer { width: 100%; /* Width of the outside container */ margin: 0 0 25px 0; }
 
 /* The slider itself */
 .slider { -webkit-appearance: none; /* Override default CSS styles */ appearance: none; width: 100%; /* Full-width */ height: 25px; /* Specified height */ background: #d3d3d3; /* Grey background */ outline: none; /* Remove outline */ -webkit-transition: .2s; /* 0.2 seconds transition on hover */ transition: opacity .2s; }
 
-.slider { -webkit-appearance: none; width: 100%; height: 10px; border-radius: 5px; background: #39A0ED; outline: none; -webkit-transition: .2s; transition: opacity .2s; margin: 10px 0 0 0; cursor: pointer; }
+.slider { -webkit-appearance: none; width: 100%; height: 10px; border-radius: 5px; background: #623CEA; outline: none; -webkit-transition: .2s; transition: opacity .2s; margin: 10px 0 0 0; cursor: pointer; }
 
-.slider::-webkit-slider-thumb { -webkit-appearance: none; appearance: none; width: 25px; height: 25px; border-radius: 50%; background: #1a1a1a; cursor: pointer; opacity: 0; }
+.slider::-webkit-slider-thumb { -webkit-appearance: none; appearance: none; width: 25px; height: 25px; border-radius: 50%; background: #272727; cursor: pointer; opacity: 0; }
 
-.slider::-moz-range-thumb { width: 25px; height: 25px; border-radius: 50%; background: #1a1a1a; cursor: pointer; opacity: 0; }
+.slider::-moz-range-thumb { width: 25px; height: 25px; border-radius: 50%; background: #272727; cursor: pointer; opacity: 0; }
 
 .slide-clicked::-webkit-slider-thumb { opacity: 1; }
 
@@ -291,7 +291,7 @@ p#warning { font-size: .8em; margin: 10px 0 25px; }
 /* ========================================================================== EXAMPLE Media Queries for Responsive Design. These examples override the primary ('mobile first') styles. Modify as content requires. ========================================================================== */
 @media only screen and (max-width: 400px) { .pattern-container { width: 1200px; } }
 
-@media only screen and (min-width: 520px) { header { position: relative; } main, #head-contain { width: 95vw; } .page-info { padding: 2.5vw; } .due-box { padding: 2.5vw; } section { display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 2.5vw 2.5vw; margin: 50px 0; } .section-title { grid-column: span 2; } .student p { font-size: 2.2rem; } h1 a, h1 a:hover, h1 a:active, h1 a:visited { color: #1a1a1a; } .interior h1 a, .interior h1 a:hover { border-bottom: none; color: white; } h1 { margin-top: 0; text-transform: uppercase; letter-spacing: .1rem; font-weight: 700; color: #1a1a1a; } ul { text-decoration: none; list-style-type: none; text-align: left; } li { padding: 0; margin: 15px 0 0; text-transform: uppercase; letter-spacing: .05rem; font-weight: bold; float: none; } }
+@media only screen and (min-width: 520px) { header { position: relative; } main, #head-contain { width: 95vw; } .page-info { padding: 2.5vw; } .due-box { padding: 2.5vw; } section { display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 2.5vw 2.5vw; margin: 50px 0; } .section-title { grid-column: span 2; } .student p { font-size: 2.2rem; } h1 a, h1 a:hover, h1 a:active, h1 a:visited { color: #272727; } .interior h1 a, .interior h1 a:hover { border-bottom: none; color: white; } h1 { margin-top: 0; text-transform: uppercase; letter-spacing: .1rem; font-weight: 700; color: #272727; } ul { text-decoration: none; list-style-type: none; text-align: left; } li { padding: 0; margin: 15px 0 0; text-transform: uppercase; letter-spacing: .05rem; font-weight: bold; float: none; } }
 
 @media only screen and (min-width: 620px) { .pattern-container { width: 200%; } .student p { font-size: 2.7rem; } }
 
@@ -305,20 +305,22 @@ p#warning { font-size: .8em; margin: 10px 0 25px; }
 
 @media only screen and (min-width: 1800px) { /* Style adjustments for viewports that meet the condition */ main, #head-contain { width: 87.5vw; } .page-info { padding: 2.5vw 6.25vw; } .due-box { padding-right: 6.25vw; } h1 { font-size: 10vw; } }
 
+@media only screen and (min-width: 2100px) { .pattern-container div { font-size: 100px; line-height: 1em; } .pattern-container div.row-even { margin-left: -45px; } .pattern-container { margin-top: -20px; } }
+
 @media print, (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 1.25dppx), (min-resolution: 120dpi) { /* Style adjustments for high resolution devices */ }
 
-/* ========================================== Temporary Styles ========================================== */
+/* ============================================ Temporary Styles ============================================ */
 body { background-color: white; }
 
-.temp-form { padding: 50px 12.5vw; color: #1a1a1a; }
+.temp-form { padding: 50px 12.5vw; color: #272727; }
 
-.temp-header { background-color: #1a1a1a; padding: 50px 12.5vw; }
+.temp-header { background-color: #272727; padding: 50px 12.5vw; }
 
 .temp-header h1 { color: white; text-align: center; }
 
-.temp-thanks { background-color: #c200fb; width: 100vw; height: 100vh; padding: 25vh 50px; }
+.temp-thanks { background-color: #44FFD1; width: 100vw; height: 100vh; padding: 25vh 50px; }
 
-.temp-thanks h1, .temp-thanks h2 { color: #1a1a1a; text-align: center; }
+.temp-thanks h1, .temp-thanks h2 { color: #272727; text-align: center; }
 
 .temp-thanks h2 { font-size: 1.5em; }
 
@@ -329,6 +331,6 @@ body { background-color: white; }
 @media only screen and (min-width: 1400px) { .temp-form { padding: 50px 30vw; } }
 
 /* ========================================================================== Print styles. Inlined to avoid the additional HTTP request: https://www.phpied.com/delay-loading-your-print-css/ ========================================================================== */
-@media print { *, *:before, *:after { background: transparent !important; -webkit-box-shadow: none !important; box-shadow: none !important; text-shadow: none !important; } a, a:visited { text-decoration: none; } article a[href]:after { content: " (" attr(href) ")"; } abbr[title]:after { content: " (" attr(title) ")"; } /* Don't show links that are fragment identifiers, or use the `javascript:` pseudo protocol */ a[href^="#"]:after, a[href^="javascript:"]:after { content: ""; } pre { white-space: pre-wrap !important; } pre, blockquote { border: 1px solid #999; page-break-inside: avoid; } /* Printing Tables: http://css-discuss.incutio.com/wiki/Printing_Tables */ thead { display: table-header-group; } tr, img { page-break-inside: avoid; } p, h2, h3 { orphans: 3; widows: 3; } h2, h3 { page-break-after: avoid; } article.tutorial, article.student { border-top: 20px solid #1a1a1a; border-bottom: 20px solid #1a1a1a; margin: 50px 0; padding: 50px 50% 50px 0; } footer { display: block; width: 50%; } h1 { font-size: 100px; color: rgba(0, 0, 0, 0) !important; } p:last-of-type { margin-bottom: 0; } .no-print { display: none; } .only-print { display: block; } .print-underline { border-bottom: 2px solid #1a1a1a; } }
+@media print { *, *:before, *:after { background: transparent !important; -webkit-box-shadow: none !important; box-shadow: none !important; text-shadow: none !important; } a, a:visited { text-decoration: none; } article a[href]:after { content: " (" attr(href) ")"; } abbr[title]:after { content: " (" attr(title) ")"; } /* Don't show links that are fragment identifiers, or use the `javascript:` pseudo protocol */ a[href^="#"]:after, a[href^="javascript:"]:after { content: ""; } pre { white-space: pre-wrap !important; } pre, blockquote { border: 1px solid #999; page-break-inside: avoid; } /* Printing Tables: http://css-discuss.incutio.com/wiki/Printing_Tables */ thead { display: table-header-group; } tr, img { page-break-inside: avoid; } p, h2, h3 { orphans: 3; widows: 3; } h2, h3 { page-break-after: avoid; } article.tutorial, article.student { border-top: 20px solid #272727; border-bottom: 20px solid #272727; margin: 50px 0; padding: 50px 50% 50px 0; } footer { display: block; width: 50%; } h1 { font-size: 100px; color: rgba(0, 0, 0, 0) !important; } p:last-of-type { margin-bottom: 0; } .no-print { display: none; } .only-print { display: block; } .print-underline { border-bottom: 2px solid #272727; } }
 
 /*# sourceMappingURL=styles.css.map */
