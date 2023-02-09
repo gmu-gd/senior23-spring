@@ -318,11 +318,23 @@ body { background-color: white; }
 
 .temp-header h1 { color: white; text-align: center; }
 
-.temp-thanks { background-color: #44FFD1; width: 100vw; height: 100vh; padding: 25vh 50px; }
+.temp-thanks, #random-list { background-color: #44FFD1; width: 100vw; min-height: 100vh; padding: 25vh 50px; }
 
 .temp-thanks h1, .temp-thanks h2 { color: #272727; text-align: center; }
 
 .temp-thanks h2 { font-size: 1.5em; }
+
+#random-list { padding-top: 50px; }
+
+#random-list a, #random-list a:visited, #random-list a:active { font-size: 1.4rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; border: 4px solid #272727; padding: 2px 7px 5px; transition: 1s background-color ease; }
+
+#random-list a:hover { cursor: pointer; background-color: #623CEA; }
+
+#generate { text-align: center; margin: 25px 0; }
+
+#random-list ol { margin: 0 auto; padding: 0; list-style-type: none; width: 220px; }
+
+#random-list li { font-size: 1.2em; margin: 0; padding: 5px 0; float: none; }
 
 @media only screen and (min-width: 768px) { .temp-form { padding: 50px 20vw; } .temp-thanks h2 { font-size: 3em; } }
 

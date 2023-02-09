@@ -1073,10 +1073,10 @@ body {
   color: $light-color;
   text-align: center;
 }
-.temp-thanks {
+.temp-thanks, #random-list {
   background-color: $primary-color;
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   padding: 25vh 50px;
 }
 .temp-thanks h1, .temp-thanks h2 {
@@ -1086,13 +1086,45 @@ body {
 .temp-thanks h2 {
   font-size: 1.5em;
 }
+#random-list {
+  padding-top: 50px;
+}
+#random-list a, #random-list a:visited, #random-list a:active {
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 4px solid $dark-color;
+  padding: 2px 7px 5px;
+  transition: 1s background-color ease;
+}
+#random-list a:hover {
+  cursor: pointer;
+  background-color: $secondary-color;
+}
+#generate {
+  text-align: center;
+  margin: 25px 0;
+}
+#random-list ol {
+  margin: 0 auto;
+  padding: 0;
+  list-style-type: none;
+  width: 220px;
+}
+#random-list li {
+  font-size: 1.2em;
+  margin: 0;
+  padding: 5px 0;
+  float: none;
+}
 @media only screen and (min-width: 768px) {
   .temp-form {
     padding: 50px 20vw;
   }
   .temp-thanks h2 {
-  font-size: 3em;
-}
+    font-size: 3em;
+  }
 }
 @media only screen and (min-width: 1024px) {
   .temp-form {
